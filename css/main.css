@@ -15,6 +15,16 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    font-size: 1.75em;
+    line-height: 1.25;
+}
+
+p {
+    font-weight: 300;
+    font-size: .95em;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -141,10 +151,31 @@ header {
     z-index: -1;
 }
 
-/* Estilos section 2 */
+/* Estilos benefits */
 
-#section2 {
+#benefits {
     background: linear-gradient(#76278F, #2B1E66);
+    padding: 90px 160px 70px;
+    color: #fff;
+    overflow: auto;
 }
 
+.info-benefits {
+    width: 475px;
+    float: left;
+}
 
+.info-benefits p {
+    line-height: 1.5;
+    margin: 15px 0 55px;
+}
+
+#benefits figure {
+    line-height: 0;
+    width: 45%;
+    float: right;
+}
+
+#benefits figure img {
+    width: 100%;
+}

@@ -91,7 +91,7 @@ header {
     color: #ff00bf;
 }
 
-.main-menu a .log-in hover {
+.main a:hover .log-in {
     color: #fff;
 }
 

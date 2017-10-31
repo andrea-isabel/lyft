@@ -200,3 +200,81 @@ iframe {
     width: 65%;
     height: 500px;
 }
+/*Estilos pie de pagina*/
+footer{
+    background-color: #333447;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+}
+
+.container-footer{
+    break-inside: avoid;
+    column-count: 4;
+    column-gap: 50px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    width: 80%;
+}
+
+.list1{ /*formato de las lista*/
+     list-style: none;
+     line-height: 45px;
+     text-decoration: none;
+}
+/*imagenes de redes sociales*/
+.rsocial-image{
+     height: 45px;
+     width: 157px;
+}
+
+h3{/*Titulos de columna*/
+    margin-bottom: 29px;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social li{
+    color: #fff;
+    display: inline-block;
+    margin:15px;
+}
+.social li:hover{
+  color:#76278F;
+}
+
+.social a {
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  padding: 6px;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+}
+
+hr{
+    display: inline-block;
+    border: none;
+    text-align:center;
+    height: 1px;
+    background-color: #fff;
+    width: 676px;
+}
+footer p{
+  padding-top: 20px;
+}
+footer p a{
+  color:#fff;
+  text-decoration: none;
+}
+footer p a:hover{
+  color:#FF00BF;
+  text-decoration:underline;
+}

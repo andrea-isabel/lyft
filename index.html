@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/icons/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Lyft</title>
@@ -35,7 +35,14 @@
             <form action="">
               <input type="text" placeholder="Phone number">
             </form>
-            <button class="become">Become a driver</button>
+            <div>
+              <button class="become">Become a driver</button>
+              <a href="#">Sign Up to Ride</a>
+            </div>
+            <div class="more">
+              <p>Already applied? <a href="#">Check the status of your application here.</a></p>
+              <p>Earn money for inviting friends to drive. <a href="#">Learn more.</a></p>
+            </div>
           </div>
           <div class="transition-gradient"></div>
         </section>
@@ -85,68 +92,72 @@
     </main>
     <!-- Pie de página -->
     <footer>
-      <div class="">
-        <h3>log in</h3>
-          <ul>
-            <li>Help</li>
-            <li>Cities</li>
-            <li>Airports</li>
-            <li>Fare Estimate</li>
+      <div class="container-footer">
+        <div class="box-login">
+          <h3 class="text-uppercase">log in</h3>
+            <ul class="list1">
+              <li>Help</li>
+              <li>Cities</li>
+              <li>Airports</li>
+              <li>Fare Estimate</li>
+            </ul>
+        </div>
+        <div class="box-partner">
+          <h3 class="text-uppercase">partner</h3>
+            <ul class="list1">
+              <li>Partnerships</li>
+              <li>Enterprise</li>
+              <li>Ambassadors</li>
+              <li>Developers</li>
+            </ul>
+        </div>
+        <div class="box-learn">
+          <h3 class="text-uppercase">learn</h3>
+            <ul class="list1">
+              <li>Safety</li>
+              <li>Blog</li>
+              <li>Press</li>
+              <li>Careers</li>
+            </ul>
+        </div>
+        <nav class="box-pictures">
+          <ul class="list1">
+            <li>
+              <img class="rsocial-image" src="assets/images/apple-store.svg" alt="apple">
+            </li>
+            <li>
+              <img class="rsocial-image" src="assets/images/google-play.png" alt="google-play">
+            </li>
+            <li>
+              <img class="rsocial-image" src="assets/images/microsoft.png" alt="microsoft">
+            </li>
           </ul>
-
-      </div>
+        </nav>
+    </div>
       <div class="">
-        <h3>partner</h3>
-          <ul>
-            <li>Partnerships</li>
-            <li>Enterprise</li>
-            <li>Ambassadors</li>
-            <li>Developers</li>
-          </ul>
-
-      </div>
-      <div class="">
-        <h3>learn</h3>
-          <ul>
-            <li>Safety</li>
-            <li>Blog</li>
-            <li>Press</li>
-            <li>Careers</li>
-          </ul>
-
-      </div>
-      <div class="">
-        <h3></h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-      </div>
-      <div class="">
-        <nav>
+        <nav class="social">
          <ul>
            <li>
-             <a href="#">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
+             <a  class="icon-social" href="#">
+               <span class="icon-social icon-facebook"></span>
              </a>
            </li>
            <li>
-             <a href="#">
-             <i class="fa fa-instagram" aria-hidden="true"></i>
+             <a class="icon-social" href="#">
+              <span class="icon-instagram"></span>
              </a>
            </li>
            <li>
-             <a href="#">
-             <i class="fa fa-twitter" aria-hidden="true"></i>
+             <a class="icon-social" href="#">
+               <span class="icon-twitter"></span>
              </a>
            </li>
          </ul>
         </nav>
         <hr>
-        <span>&#169;2017 lyft,Inc.TermsPrivacy</span>
+        <p>&#169;2017 lyft,Inc. <a href="#"> Terms </a><a href="#">Privacy</a></p>
       </div>
+
     </footer>
 </body>
 </html>

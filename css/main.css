@@ -78,17 +78,21 @@ header {
 }
 
 .main-menu a:last-child {
-    padding-inline-end: 16px;
+    padding: 16px;
 }
 
 .main-menu .log-in {
     border: 1px solid #fff;
     border-radius: 8px;
-    padding: 12px 20px;
+    padding: 10px 20px;
 }
 
 .main-menu a:hover {
     color: #ff00bf;
+}
+
+.main-menu a .log-in hover {
+    color: #fff;
 }
 
 /* Estilos section Home */
@@ -104,11 +108,10 @@ header {
 
 .form-left {
     width: 560px;
-    height: 425px;
     background-color: #fff;
     float: right;
     margin: 118px 0 0;
-    padding: 65px;
+    padding: 65px 65px 35px;
 }
 
 .form-left h1, .form-left h4 {
@@ -144,6 +147,33 @@ header {
     font-size: 1em;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-left a {
+    margin-left: 25px;
+    font-weight: 300;
+    color: #a8b1c0;
+}
+
+.form-left a:hover {
+    color: #ff00bf;
+}
+
+.more {
+    margin-top: 30px;
+}
+
+.more p {
+    color: #728099;
+    font-size: .6em;
+}
+
+.more a {
+    color: #728099;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
 }
 
 .transition-gradient {
@@ -211,4 +241,91 @@ iframe {
 
 .middle .info-section{
     float: right;
+}
+
+
+/*Estilos pie de pagina*/
+footer{
+    background-color: #333447;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+}
+
+.container-footer{
+    break-inside: avoid;
+    column-count: 4;
+    column-gap: 50px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    width: 80%;
+}
+
+/*formato de las lista*/
+.list1 {
+     list-style: none;
+     line-height: 45px;
+     text-decoration: none;
+}
+
+/*imagenes de redes sociales*/
+.rsocial-image{
+     height: 45px;
+     width: 157px;
+}
+
+h3{/*Titulos de columna*/
+    margin-bottom: 29px;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social li{
+    color: #fff;
+    display: inline-block;
+    margin:15px;
+}
+
+.social li:hover{
+  color:#76278F;
+}
+
+/* Formato hipervínculo */
+.social a {
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  padding: 6px;
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+}
+
+hr {
+    display: inline-block;
+    border: none;
+    text-align:center;
+    height: 1px;
+    background-color: #fff;
+    width: 676px;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+footer p a {
+  color:#fff;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color:#FF00BF;
+  text-decoration:underline;
 }

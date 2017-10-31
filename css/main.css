@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* text-align: center; */
+    line-height: 1;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
 
 header {
     position: fixed;
+    z-index: 1000;
     top: 0;
     right: 0;
     left: 0;
@@ -82,6 +84,7 @@ header {
     background-position: center;
     color: #fff;
     overflow: auto;
+    position: relative;
 }
 
 .form-left {
@@ -95,7 +98,53 @@ header {
 
 .form-left h1, .form-left h4 {
     color: #352384;
+    margin-bottom: 15px;
+    letter-spacing: 0;
 }
 
+.form-left input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #352384;
+    padding: 20px 0 10px;
+    color: #352384;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    margin-bottom: 16px;
+}
+
+.form-left input:focus {
+    outline: none;
+}
+
+.form-left input::placeholder {
+    color: #cad1e0;
+}
+
+.become {
+    color: #fff;
+    background-color: #ff00bf;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+.transition-gradient {
+    height:  7rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(transparent,#76278f);
+    z-index: -1;
+}
+
+/* Estilos section 2 */
+
+#section2 {
+    background: linear-gradient(#76278F, #2B1E66);
+}
 
 

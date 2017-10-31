@@ -7,7 +7,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    /* text-align: center; */
+}
+
+h1 {
+    font-size: 2.5em;
 }
 
 .text-uppercase {
@@ -22,17 +26,12 @@ header {
     right: 0;
     left: 0;
     background: transparent;
-    height: 115px;
-    padding: 0 80px;
+    padding: 33px 80px;
 }
 
 .logo {
     width: 68px;
-    height: 48px;
     float: left;
-    /* position: absolute; */
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .logo img {
@@ -40,8 +39,10 @@ header {
 }
 
 .main-menu {
-    float: right;
-    margin-right: 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 160px;
 }
 
 .main-menu ul {
@@ -55,15 +56,46 @@ header {
 .main-menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.25em;
-    padding: 24px;
+    font-size: 1.2em;
+    padding: 18px;
 }
 
+.main-menu a:last-child {
+    padding-inline-end: 16px;
+}
+
+.main-menu .log-in {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.main-menu a:hover {
+    color: #ff00bf;
+}
 
 /* Estilos section Home */
 #home {
     background-image: url('../assets/images/hero.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 150px;
+    background-position: center;
+    color: #fff;
+    overflow: auto;
 }
+
+.form-left {
+    width: 560px;
+    height: 425px;
+    background-color: #fff;
+    float: right;
+    margin: 118px 0 0;
+    padding: 65px;
+}
+
+.form-left h1, .form-left h4 {
+    color: #352384;
+}
+
+
+

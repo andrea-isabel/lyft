@@ -231,10 +231,13 @@ footer{
      width: 157px;
 }
 
-h3{/*Titulos de columna*/
+h3{/*Titulos de las columna*/
     margin-bottom: 29px;
 }
-
+.container-social{
+  text-align: center;
+}
+/*barra de navegacion en las redes sociales*/
 .social ul {
   list-style: none;
 }
@@ -247,7 +250,7 @@ h3{/*Titulos de columna*/
 .social li:hover{
   color:#76278F;
 }
-
+/*dando formato al hipervinculo*/
 .social a {
   display: block;
   border: 1px solid #fff;

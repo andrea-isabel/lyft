@@ -8,7 +8,7 @@
 
 ## Introduccion
 
->En el presente proyecto se replico la pagina web Lyft haciendo de los conocimientos aprendidos en clase sobre HTML semantico eintroduccion a CSS.
+>En el presente proyecto se replico la pagina web Lyft haciendo uso de los conocimientos aprendidos en clase sobre HTML semantico e introduccion a CSS.
 
 ## Objetivo
 
@@ -21,8 +21,8 @@ Se tiene como reto replicar el sitio de **Lyft**:
 
 * Encontrarás un archivo `index.html` y una archivo `main.css` en  el cual se halla la estructura y estilos de nuestro proyecto.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes de nuestro proyecto.
+* Dentro de la carpeta `assets` se encuentra la carpeta `images` y la carpeta `icons` donde
+  encontrarás todas las imágenes e iconos de nuestro proyecto.
 
 * Esta web utiliza la tipografía `Montserrat`.
 

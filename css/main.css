@@ -81,6 +81,15 @@ header {
     padding: 16px;
 }
 
+.main-menu a span {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.main-menu a:hover:not(.log-in) {
+    color: #ff00bf;
+}
 .main-menu .log-in {
     border: 1px solid #fff;
     border-radius: 8px;
@@ -258,10 +267,10 @@ footer{
     column-gap: 50px;
     display: inline-block;
     text-align: left;
-    margin-left: 100px;
-    margin-top: 70px;
+    margin-left: 120px;
+    margin-top: 80px;
     margin-bottom: 90px;
-    width: 80%;
+    width: 75%;
 }
 
 /*formato de las lista*/
@@ -284,6 +293,9 @@ h3{/*Titulos de las columna*/
 .container-social{
   text-align: center;
 }
+.container-footer li:hover{
+    color:#FF00BF;
+  }
 
 /*barra de navegacion en las redes sociales*/
 .social ul {
@@ -293,12 +305,9 @@ h3{/*Titulos de las columna*/
 .social li{
     color: #fff;
     display: inline-block;
-    margin:15px;
+    margin:15px 17px;
 }
 
-.social li:hover{
-  color:#76278F;
-}
 
 /*dando formato al hipervinculo*/
 .social a {
@@ -318,7 +327,7 @@ hr {
     text-align:center;
     height: 1px;
     background-color: #fff;
-    width: 676px;
+    width: 740px;
 }
 
 footer p {
